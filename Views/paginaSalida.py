@@ -9,19 +9,10 @@ class Ui_PaginaSalida(object):
         PaginaSalida.setStyleSheet("background-color: rgb(51, 51, 51);")
         self.centralwidget = QtWidgets.QWidget(PaginaSalida)
         self.centralwidget.setObjectName("centralwidget")
-        self.btn_Menu = QtWidgets.QPushButton(self.centralwidget)
-        self.btn_Menu.setGeometry(QtCore.QRect(20, 20, 81, 31))
         font = QtGui.QFont()
         font.setFamily("Nirmala UI")
         font.setBold(True)
         font.setWeight(75)
-        self.btn_Menu.setFont(font)
-        self.btn_Menu.setStyleSheet("border-style: solid;\n"
-        "border-width: 3px;\n"
-        "background-color: rgb(236, 236, 236);\n"
-        "color: rgb(51, 51, 51);\n"
-        "border-radius: 10px;")
-        self.btn_Menu.setObjectName("btn_Menu")
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(140, 60, 601, 81))
         font = QtGui.QFont()
@@ -173,7 +164,6 @@ class Ui_PaginaSalida(object):
     def retranslateUi(self, PaginaSalida):
         _translate = QtCore.QCoreApplication.translate
         PaginaSalida.setWindowTitle(_translate("PaginaSalida", "MainWindow"))
-        self.btn_Menu.setText(_translate("PaginaSalida", "Menu"))
         self.label_3.setText(_translate("PaginaSalida", "Programación de salidas de autos"))
         self.btn_busqueda.setText(_translate("PaginaSalida", "Realizar busqueda"))
         self.btn_refrescar.setText(_translate("PaginaSalida", "Refrescar"))

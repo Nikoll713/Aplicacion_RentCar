@@ -10,8 +10,7 @@ class PrincipalController():
     def __init__(self, Ui_principal):
         self.Ui_principal = Ui_principal
 
-    def GoView(self, Ui_principal, Ui_Final):
-        Ui_principal.hide()    
+    def GoView(self, Ui_principal, Ui_Final): 
         self.busqueda = QtWidgets.QMainWindow() 
         self.ui2 = Ui_Final()
         self.ui2.setupUi(self.busqueda)
