@@ -17,10 +17,10 @@ class Ui_PaginaSalida(object):
         font.setWeight(75)
         self.btn_Menu.setFont(font)
         self.btn_Menu.setStyleSheet("border-style: solid;\n"
-"border-width: 3px;\n"
-"background-color: rgb(236, 236, 236);\n"
-"color: rgb(51, 51, 51);\n"
-"border-radius: 10px;")
+        "border-width: 3px;\n"
+        "background-color: rgb(236, 236, 236);\n"
+        "color: rgb(51, 51, 51);\n"
+        "border-radius: 10px;")
         self.btn_Menu.setObjectName("btn_Menu")
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(140, 60, 601, 81))
@@ -29,7 +29,7 @@ class Ui_PaginaSalida(object):
         font.setPointSize(28)
         self.label_3.setFont(font)
         self.label_3.setStyleSheet("background-color: rgb(51, 51, 51);\n"
-"color: rgb(186, 0, 0);")
+        "color: rgb(186, 0, 0);")
         self.label_3.setObjectName("label_3")
         self.btn_busqueda = QtWidgets.QPushButton(self.centralwidget)
         self.btn_busqueda.setGeometry(QtCore.QRect(150, 180, 231, 51))
@@ -37,11 +37,11 @@ class Ui_PaginaSalida(object):
         font.setPointSize(16)
         self.btn_busqueda.setFont(font)
         self.btn_busqueda.setStyleSheet("border-style: solid;\n"
-"border-width: 3px;\n"
-"border-color: rgb(186, 0, 0);\n"
-"background-color: rgb(51, 51, 51);\n"
-"color: rgb(186, 0, 0);\n"
-"border-radius: 25px;")
+        "border-width: 3px;\n"
+        "border-color: rgb(186, 0, 0);\n"
+        "background-color: rgb(51, 51, 51);\n"
+        "color: rgb(186, 0, 0);\n"
+        "border-radius: 25px;")
         self.btn_busqueda.setObjectName("btn_busqueda")
         self.btn_refrescar = QtWidgets.QPushButton(self.centralwidget)
         self.btn_refrescar.setGeometry(QtCore.QRect(500, 180, 211, 51))
@@ -49,11 +49,11 @@ class Ui_PaginaSalida(object):
         font.setPointSize(16)
         self.btn_refrescar.setFont(font)
         self.btn_refrescar.setStyleSheet("border-style: solid;\n"
-"border-width: 3px;\n"
-"border-color: rgb(186, 0, 0);\n"
-"background-color: rgb(51, 51, 51);\n"
-"color: rgb(186, 0, 0);\n"
-"border-radius: 25px;")
+        "border-width: 3px;\n"
+        "border-color: rgb(186, 0, 0);\n"
+        "background-color: rgb(51, 51, 51);\n"
+        "color: rgb(186, 0, 0);\n"
+        "border-radius: 25px;")
         self.btn_refrescar.setObjectName("btn_refrescar")
         self.label = QtWidgets.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(260, 290, 191, 31))
